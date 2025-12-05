@@ -8,7 +8,7 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 ---
 
 ## 🏗️ Architecture
-![Architecture Diagram]<img width="1232" height="701" alt="nyc_data_architecture" src="https://github.com/user-attachments/assets/8484803d-806f-44de-9e4a-2253f2401041" />
+<img width="1232" height="701" alt="nyc_data_architecture" src="https://github.com/user-attachments/assets/8484803d-806f-44de-9e4a-2253f2401041" />
 
 
 ### **Tech Stack**
@@ -27,19 +27,33 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 ## 📂 Repository Structure
 📁 nyc-taxi-data-engineering-2024/
 │
+
 ├── 📁 Architecture/ # Architecture diagram
+
 │ └── nyc_data_architecture.png
+
 │
+
 ├── 📁 Data_ingestion/ # ADF pipeline screenshot
+
 │ └── adf_pipeline.png
+
 │
+
 ├── 📁 Databricks-Notebooks/ # Transformation notebooks
+
 │ └── Gold_Notebook.py
+
 │
+
 ├── 📁 Sample_Data/ # Static/lookup files
+
 │ ├── trip_type.csv
+
 │ └── trip_zone_lookup.csv
+
 ├── 📄 README.md # Project documentation
+
 └── 📄 LICENSE # MIT License
 
 ---
@@ -118,4 +132,10 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 - **End-to-end project lifecycle** from ingestion to visualization.
 
 ---
+## 📣 Author
+
+**Tushar Ahlawat**
+
+Aspiring Data Engineer | Azure & Databricks Enthusiast
+
 
