@@ -7,6 +7,14 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 
 ---
 
+## 🏆 Key Achievements
+- ✅ **41M+ records** processed end-to-end
+- ✅ **Medallion Architecture** implemented (Bronze→Silver→Gold)
+- ✅ **Star Schema** built with dimension/fact tables
+- ✅ **Data Quality Framework** with validation rules
+- ✅ **Delta Lake** for ACID compliance & time travel
+- ✅ **Production-ready** pipeline on Azure
+  
 ## 🏗️ Architecture
 <img width="1232" height="701" alt="nyc_data_architecture" src="https://github.com/user-attachments/assets/8484803d-806f-44de-9e4a-2253f2401041" />
 
@@ -42,8 +50,8 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 
 ├── 📁 Databricks-Notebooks/ # Transformation notebooks
 
-│ └── Gold_Notebook.py
-
+│ ├── Silver_Notebook.py
+  └── Gold_Notebook.py
 │
 
 ├── 📁 Sample_Data/ # Static/lookup files
@@ -117,7 +125,7 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 ---
 
 ## 📊 Results & Insights
-- **Processed 12 months of trip data** (~10M+ records) efficiently.
+- **Processed 12 months of trip data** (41M+ records) efficiently.
 - **Achieved data reliability** with Delta Lake (ACID transactions, time travel).
 - **Enabled self-service BI** with Power BI dashboards.
 - **Implemented a scalable, cloud-native pipeline** ready for incremental loads.
@@ -137,5 +145,6 @@ This end-to-end data engineering project implements a **Medallion Architecture (
 **Tushar Ahlawat**
 
 Aspiring Data Engineer | Azure & Databricks Enthusiast
+
 
 
